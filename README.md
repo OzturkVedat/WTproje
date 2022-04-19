@@ -1,0 +1,2 @@
+# WTproje
+WEB sitesi oluşturma
