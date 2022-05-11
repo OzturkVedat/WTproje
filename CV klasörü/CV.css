@@ -1,0 +1,43 @@
+.baslik {
+  margin: auto;
+  text-align: left;
+  color: cadetblue;
+  padding-right: 40px;
+  font-size: 30px;
+  font-weight: bolder;
+  position: relative;
+  left: 40px;
+  top: 30px;
+}
+.resim {
+  border-radius: 40%;
+  margin: auto;
+  position: relative;
+  top: 5px;
+  right: 30px;
+}
+.kisBas {
+  font-size: 40px;
+  font-weight: lighter;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: beige;
+  position: relative;
+  left: 30px;
+}
+.kisList {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.egitBas {
+  font-size: 40px;
+  font-weight: lighter;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: beige;
+  position: relative;
+  left: 30px;
+}
+.beceriler {
+  font-weight: bold;
+  font-size: 15px;
+}
