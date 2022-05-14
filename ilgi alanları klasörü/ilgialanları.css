@@ -1,0 +1,32 @@
+.header {
+  position: relative;
+  text-align: left;
+  border: 2px double white;
+}
+.başlık {
+  position: absolute;
+  color: cadetblue;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  font-style: italic;
+}
+.minibaşlık {
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: cadetblue;
+  background-color: rgb(7, 7, 62);
+}
+.yazı {
+  font-size: 20px;
+  color: rgb(68, 66, 66);
+  font-family: fantasy;
+}
+.video {
+  text-align: center;
+  border-top: 5px solid darkblue;
+  border-bottom: 5px solid darkblue;
+}
