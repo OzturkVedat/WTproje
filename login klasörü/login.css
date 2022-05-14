@@ -1,0 +1,20 @@
+.header {
+  text-align: left;
+}
+.başlık {
+  position: relative;
+  bottom: 70px;
+  color: aliceblue;
+  font-size: 40px;
+  font-weight: bolder;
+  font-style: italic;
+  border-bottom: 3px solid beige;
+}
+.bütünForm {
+  border: 2px solid darkblue;
+  padding: 3%;
+  margin: auto;
+  font-size: 20px;
+  font-family: fantasy;
+  color: darkslateblue;
+}

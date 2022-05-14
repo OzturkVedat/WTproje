@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Sayfası-Vedat Öztürk</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="js/bootstrap.js" />
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img src="header-blueBurst.jpg" width="2000px" height="80px" />
+      <div class="başlık">Log in Sayfası</div>
+    </div>
+
+    <div class="bütünForm">
+      <form action="login.php" method="post">
+        <label for="LabEposta"> Öğrenci e-posta:</label><br />
+        <input type="email" placeholder="e-postanızı giriniz.." name="e-posta" required /><br />
+        <label for="LabPw">Şifre:</label><br />
+        <input type="password" placeholder="şifrenizi giriniz.." name="şifre" required /><br />
+        <input type="submit" value="Giriş Yap" />
+      </form>
+    </div>
+  </body>
+</html>
