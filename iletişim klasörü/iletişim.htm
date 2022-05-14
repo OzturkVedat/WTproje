@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="js/bootstrap.js" />
+    <link rel="stylesheet" href="iletişim.css" />
+    <title>İletişim Sayfası-Vedat Öztürk</title>
+  </head>
+  <body>
+    <div class="bütün">
+      <form name="tekForm" onsubmit="return validateForm()" method="post" action="iletişim.php">
+        <label for="ad">Ad</label>
+        <input type="text" id="ad" name="ad" placeholder="Adınız.." />
+
+        <label for="soyad">Soyad</label>
+        <input type="text" id="soyad" name="soyad" placeholder="Soyadınız.." />
+
+        <label for="ülke">ülke</label>
+        <input type="text" id="ülke" name="ülke" placeholder="Ülke.." />
+
+        <label for="Konu">Konu</label>
+        <textarea id="konu" name="konu" placeholder="Yazınız.." style="height: 200px"></textarea>
+
+        <input type="submit" value="Gönder" />
+        <input type="reset" value="Temizle" />
+      </form>
+    </div>
+    <script src="iletişim.js"></script>
+  </body>
+</html>
